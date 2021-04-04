@@ -1,0 +1,10 @@
+[
+  {
+    "device": "c4:7c:8d:66:27:96",
+    "location": "Garden",
+    "plant": "Strawberry",
+    "thresholdMoisture": 15,
+    "thresholdFertilizer": null,
+    "active": true
+  }
+]

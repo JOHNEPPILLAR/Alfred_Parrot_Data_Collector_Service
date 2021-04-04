@@ -1,0 +1,32 @@
+{
+  "name": "alfred_parrot_data_collector_service",
+  "version": "1.0.0",
+  "description": "ALFRED - Parrot data Collector Service",
+  "author": "JP",
+  "license": "MIT",
+  "main": "lib/server/server.js",
+  "scripts": {
+    "start": "node lib/server/server.js",
+    "local": "nodemon lib/server/server.js",
+    "test": "snyk test"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-13",
+    "alfred-base": "git://github.com/johneppillar/alfred_base_service",
+    "debug": "4.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.2.1",
+    "snyk": "^1.521.0"
+  }
+}
